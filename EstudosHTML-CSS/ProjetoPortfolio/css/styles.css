@@ -1,0 +1,375 @@
+html,
+body {
+    margin   : 0;
+    padding  : 0;
+    font-size: 0;
+
+}
+
+body {
+    background-color: #251f47;
+    font-family     : 'Montserrat', sans-serif;
+    
+}
+
+.navigation {
+    color      : black;
+    height     : 50px;
+    font-weight: 100;
+    margin: 20px;
+    animation-name: profile-capa;
+    animation-duration: 2s;
+}
+
+.navigation ul {
+    color: black;
+    margin-top  : 0;
+    padding-left: 0;
+    list-style  : none;
+    text-align  : right;
+    height      : 50px;
+}
+
+.navigation li {
+    background-color: white;
+    color: black;
+    display      : inline-block;
+    margin-right : 10px;
+    padding-left : 30px;
+    padding-right: 30px;
+    line-height  : 50px;
+    font-size    : 16px;
+    border: solid white 1px;
+    border-radius: 10%;
+    box-shadow: 10px 10px ;
+}
+
+.navigation li:hover {
+    /* background-color: gray; */
+    color:#7b4cb9;
+    /* opacity: 0.8; */
+    transition: 0.5s;
+}
+.navigation a {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color:#7b4cb9;
+}
+
+.navigation li.icon-3-line{
+    display: none;
+}
+
+.navigation li.icon-3-line:hover{
+    color:#7b4cb9;
+    cursor: pointer;
+}
+
+.capa {
+    color: #CDDDDD;
+}
+
+.capa span {
+    color  : #7b4cb9;
+    display: block;
+
+}
+
+.capa div {
+    display: inline-block;
+    height : 650px;
+}
+
+
+.profile-pic {
+    width     : 40%;
+    text-align: center;
+
+    animation-name: profile-capa;
+    animation-duration: 2s;
+}
+
+
+#profile {
+    width        : 320px;
+    border-radius: 320px;
+    margin-top   : 100px;
+    border : 5px solid purple; 
+    box-shadow: -10px 15px 10px 0px black;
+}
+
+.profile-title {
+    vertical-align: top;
+    width         : 50%;
+    border:  double 5px ;
+    border-left:  50px solid #7b4cb9;
+    text-align: center;
+
+    animation-name: titulo-capa;
+    animation-duration: 2s;
+}
+
+.profile-title:hover{
+    box-shadow: 10px 10px 10px white;
+    transition: 1s;
+}
+
+.profile-title h1 {
+    font-size     : 58px;
+    margin-top    : 200px;
+    text-transform: uppercase;
+    font-weight   : 400;
+    line-height   : 54px;
+}
+
+.profile-title h2 {
+    font-size  : 16px;
+    font-weight: 100;
+    margin-top : -26;
+}
+
+.main {
+    padding: 80px 180px 80px 100px;
+
+    animation-name: conteudo;
+    animation-duration: 2s;
+}
+
+.profile-pic-curri {
+    width        : 200px;
+    float        : right;
+    margin-top   : 30px;
+    margin-right : 20px;
+    border-radius: 5%;
+    border : 5px solid purple; 
+    box-shadow: -10px 15px 10px 0px;
+}
+
+.main h1 {
+    color      : #CDDDDD;
+    font-size  : 30px;
+    font-weight: normal;
+}
+.main h2 {
+    color         : #CDDDDD;
+    font-size     : 16px;
+    text-transform: uppercase;
+    font-weight   : normal;
+    margin-top    : 40px;
+}
+
+.main h3 {
+    color         : #7b4cb9;
+    font-size     : 12px;
+    text-transform: uppercase;
+}
+
+.main p {
+    color      : #CDDDDD;
+    font-size  : 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align : justify;
+}
+
+.caminho {
+    list-style  : none;
+    font-size   : 15px;
+    padding-left: 0;
+    color       : #7b4cb9;
+}
+
+.caminho a {
+    color:#7b4cb9
+}
+
+.caminho li {
+    font-size: 15px;
+    display  : inline-block;
+}
+
+.voltar {
+      /* margin-top: 15px; */
+    color    : #7b4cb9;
+    font-size: 18px;
+}
+.social-img{
+    width        : 50px;
+    border-radius: 20%;
+    margin       : 0px 10px 10px 0px;
+}
+.social-img:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.miniatura{
+    margin-right : 15px;
+    margin-bottom: 15px;
+    width        : 320px;
+    height       : 320px;
+    display      : inline-block;
+    overflow     : hidden;
+}
+
+.miniatura a {
+    text-decoration: none;
+}
+
+.blackbox{
+    width           : 100%;
+    height          : 100%;
+    background-color: black;
+    opacity         : 0;
+    padding-top     : 140px;
+    transition: 1s;
+}
+
+.blackbox:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.blackbox-text{
+    text-align: center;
+}
+
+.blackbox-text h1{
+    font-size     : 13px;
+    color         : #7b4cb9;
+    text-transform: uppercase;
+    margin-top    : 0;
+}
+
+.blackbox-text h2 {
+    text-transform: none;
+    font-weight   : 100;
+    margin-top    : 0;
+}
+
+.foto-trabalho {
+    text-align: center;
+    width     : 100%;
+    height    : 80%;
+    margin-top: 10px;
+}
+
+.link-repositorio{
+    color    : #7b4cb9;
+    font-size: 18px;
+}
+
+
+@keyframes profile-capa{
+    0% {opacity: 0; transform: translate(0px,20px);}
+    100% {opacity: 1; transform: translate(0px,0px);}
+}
+
+@keyframes titulo-capa{
+    0% {opacity: 0; transform: translate(0px,-20px);}
+    100% {opacity: 1; transform: translate(0px,0px);}
+}
+
+@keyframes conteudo{
+    0% {opacity: 0; transform: translate(-20px,0px);}
+    100% {opacity: 1; transform: translate(0px,0px);}
+}
+
+@media (max-width : 1000px){
+
+    .navigation li{
+        display: none;
+
+    }
+
+    .navigation li.icon-3-line{
+        display: inline-block;
+    }
+
+    .capa div {
+        display: block;
+        height: auto;
+    }
+
+    .profile-pic{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .profile-pic img{
+        margin-top: 0 ;
+        max-width: 80%;
+    }
+
+    .profile-title{
+        text-align: center;
+        width: 100%;
+    }
+
+    .profile-title h1 {
+        margin-top:30px;
+        font-size: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .profile-tittle h2 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main {
+        padding: 10px 5% 40px 5%;
+    
+    }
+
+    .main p {
+        text-align: left;
+        line-height: 30px;
+    }
+
+    .caminho li{
+        font-size: 12px;
+    }
+
+    .profile-pic-curri {
+        float        : right;
+        max-width: 100%;
+        border-radius: 5%;
+        box-shadow   : 10px 10px solid;
+    }
+
+    .miniatura{
+        max-width: 100%;
+        background-size: auto 100%;
+    }
+
+    .blackbox{
+        opacity: 0.8;
+    }
+
+    .menujs{
+
+        height: auto;
+    }
+
+    .menujs ul {
+        height: auto;
+        text-align: center;
+        padding-right: 40%;
+        padding-left: 40%;
+    }
+
+    .menujs li{
+        display: block;
+        margin-bottom: 10px;
+        border: solid white 1px;
+        border-radius: 10% 20%;
+    }
+    
+
+}
