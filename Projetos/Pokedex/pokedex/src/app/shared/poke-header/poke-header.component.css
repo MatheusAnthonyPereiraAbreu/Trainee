@@ -1,0 +1,10 @@
+/* @import'/pokedex/src/config-css/variables.css'; */
+
+:host header {
+  background-color: #262835;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0; 
+}
+  
