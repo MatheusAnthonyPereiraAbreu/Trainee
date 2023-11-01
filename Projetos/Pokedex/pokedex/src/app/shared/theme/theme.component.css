@@ -1,0 +1,7 @@
+:host button img{
+    width: 2rem;
+}
+:host button {
+    border-radius: 10px;
+    background-color: var(--primary--color);
+}
